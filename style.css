@@ -1,23 +1,36 @@
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .nav li {
-    float: left;
+  float: left;
 }
 
 .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: #111;
+  background-color: #111;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #a314ea64;
+}
+
+#project {
+  background-color: #a314ea64;
+}
+
+section {
+  padding-top: 5rem;
 }
